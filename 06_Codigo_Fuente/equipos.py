@@ -33,3 +33,34 @@ def listar_equipos():
         return
     for e in equipos:
         print(f"[{e['id']}] {e['codigo']} - {e['tipo']} {e['marca']} {e['modelo']} - Estado: {e['estado']}")
+
+
+def buscar_equipo_por_codigo(codigo):
+    equipos = cargar(RUTA_EQUIPOS)
+    for e in equipos:
+        if e["codigo"] == codigo:
+            return e
+    return None
+
+def actualizar_estado_equipo(codigo, nuevo_estado):
+    equipos = cargar(RUTA_EQUIPOS)
+    for e in equipos:
+        if e["codigo"] == codigo:
+            e["estado"] = nuevo_estado
+            guardar(RUTA_EQUIPOS, equipos)
+            return True
+    return False
+
+def eliminar_equipo(codigo):
+    equipos = cargar(RUTA_EQUIPOS)
+    equipo = next((e for e in equipos if e["codigo"] == codigo), None)
+    if not equipo:
+        print("Error: equipo no encontrado.")
+        return False
+    if equipo["estado"] != "disponible":
+        print("Error: no se puede eliminar un equipo que está prestado.")
+        return False
+    equipos = [e for e in equipos if e["codigo"] != codigo]
+    guardar(RUTA_EQUIPOS, equipos)
+    print(f"Equipo {codigo} eliminado.")
+    return True
