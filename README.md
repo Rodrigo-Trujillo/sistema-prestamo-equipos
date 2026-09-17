@@ -28,3 +28,22 @@ MVP desarrollado en Python aplicando la metodología Scrum, para gestionar el pr
 - Registrar estudiantes
 - Registrar préstamo de equipo
 - Registrar devolución de equipo
+
+## Cómo ejecutar
+
+Requisitos: Python 3.10 o superior. No requiere librerías externas, solo la librería estándar (`json`, `os`, `datetime`).
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/Rodrigo-Trujillo/sistema-prestamo-equipos.git
+   cd sistema-prestamo-equipos/06_Codigo_Fuente
+   ```
+
+2. Ejecuta el programa:
+
+   ```bash
+   python main.py
+   ```
+
+3. Usa el menú en consola para registrar equipos, estudiantes, préstamos y devoluciones. Los datos se guardan automáticamente en archivos JSON dentro de la carpeta `datos/` (excluida del control de versiones).
