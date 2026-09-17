@@ -1,7 +1,7 @@
 # Acta de Sprint Planning
 
-**Sprint:** 1 (única iteración, duración 1 semana)
-**Fecha:** [completar con la fecha real de la reunión]
+**Sprint:** 1 (única iteración, duración: 1 semana)  
+**Fecha:** 15 de septiembre de 2026  
 **Asistentes:** Rodrigo Trujillo, Sebastián Panche, Dainer Pereira
 
 ## Sprint Goal
