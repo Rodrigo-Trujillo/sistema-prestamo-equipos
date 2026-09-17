@@ -9,7 +9,7 @@
 
 ## 1. Vista del Backlog
 
-![Backlog](./capturas/01_backlog.png)
+![Backlog](./Capturas/01_backlog.png)
 
 ---
 
@@ -17,13 +17,13 @@
 
 Se muestra el tablero con las columnas To Do, In Progress, In Review y Done.
 
-![Tablero Kanban](./capturas/02_tablero_kanban.png)
+![Tablero Kanban](./Capturas/02_tablero_kanban.png)
 
 ---
 
 ## 3. Backlog con Sprint Completado
 
-![Backlog Sprint Completado](./capturas/03_backlog_sprint_completado.png)
+![Backlog Sprint Completado](./Capturas/03_backlog_sprint_completado.png)
 
 ---
 
@@ -31,7 +31,7 @@ Se muestra el tablero con las columnas To Do, In Progress, In Review y Done.
 
 Se observa la historia con sus subtareas finalizadas.
 
-![Detalle HU01](./capturas/04_detalle_hu01.png)
+![Detalle HU01](./Capturas/04_detalle_hu01.png)
 
 ---
 
